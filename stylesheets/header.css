@@ -1,0 +1,21 @@
+.navbar {
+    background-color: aquamarine !important;
+}
+
+.navbar-brand {
+    color:blueviolet !important;
+    font-weight: bolder;
+    font-size: 35px !important;
+    padding-left: 60px !important;
+}
+
+.nav-link {
+    color: rgba(124, 51, 153, 0.7) !important;
+    padding-left: 30px !important;
+}
+
+
+.navbar-toggler:focus {
+    outline: none !important;
+   
+}

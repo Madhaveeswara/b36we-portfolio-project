@@ -1,0 +1,14 @@
+.footer {
+    background-color: aquamarine !important;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    color:rgb(56, 50, 50);
+
+}
+
+.footer .divider {
+    height: 2px;
+    border: 1px solid grey;
+    width: 100%;
+}

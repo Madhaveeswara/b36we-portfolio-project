@@ -1,0 +1,77 @@
+.intro {
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    padding-top: 50px;
+    background-image: url('../images/intro-bg-img.svg');
+    background-size: 100% 100%;
+}
+/* External Font usage */
+@font-face {
+    font-family: 'example-3', sans-serif;
+    src: url('./custom-Italic.ttf');
+  }
+
+ .name-1 {
+  font-family: 'example-3', sans-serif;  
+  font-size: 50px;
+  color: yellow;
+}
+
+.name-2 {
+    font-family: 'example-3', sans-serif;
+    font-size: 50px;   
+    color:orange;
+}
+
+.name-3 {
+    font-family: 'example-3', sans-serif;
+    font-size: 50px; 
+    color: orangered;
+} 
+
+.intro p {
+    color: blueviolet;
+    font-style: italic;
+}
+
+.about {
+    background-color: green;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.hire-me {
+    background-color: white;
+    padding: 10px 25px;
+    border: none;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width : 600px) {
+
+    .name-1 {
+        font-family: 'example-3', sans-serif;  
+        font-size: 30px;
+        color: yellow;
+      }
+      
+      .name-2 {
+          font-family: 'example-3', sans-serif;
+          font-size: 30px;   
+          color:orange;
+      }
+      
+      .name-3 {
+          font-family: 'example-3', sans-serif;
+          font-size: 30px; 
+          color: orangered;
+      }
+
+}

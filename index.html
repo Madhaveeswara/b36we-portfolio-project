@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio Design</title>
+    <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/common.css" />
+    <link rel="stylesheet" href="./stylesheets/intro.css" />
+    <link rel="stylesheet" href="./stylesheets/skills.css" />
+    <link rel="stylesheet" href="./stylesheets/projects.css" /> 
+    <link rel="stylesheet" href="./stylesheets/contact-us.css" /> 
+    <link rel="stylesheet" href="./stylesheets/footer.css" />       
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <h1> Simple Portfolio </h1> -->
+
+
+    <!-- Start of Header -->
+    <div class="header">
+        <!-- Navigation Bar from Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">GUVI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <!-- End of Header -->
+
+    <!-- Start of Intro -->
+    <div id="about" class="row intro">
+        <div class="col-md-6 p-4">
+            <div class="d-flex">
+                <h1 class="name-1">V.</h1> &nbsp; &ensp;
+                <h1 class="name-2">Madhaveeswara </h1> &nbsp; &ensp;
+                <h1 class="name-3">Brahmaji</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dignissimos veniam, officia illo
+                doloremque repellendus quia eligendi tempora non enim iure quas ratione optio id aliquid eos ea quaerat.
+                Nam.</p>
+
+            <div class="d-flex justify-content-end">
+                <button class="about" onClick='window.location="#about"'>About</button>
+                <button class="hire-me" onClick='window.location="#contactus"'>Hire Me</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Intro -->
+
+    <!-- Wave pattern svg code -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+        <path fill="#adff2f" fill-opacity="1"
+            d="M0,32L48,69.3C96,107,192,181,288,181.3C384,181,480,107,576,101.3C672,96,768,160,864,165.3C960,171,1056,117,1152,112C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <!-- Start of Skills -->
+    <div id="skills" class="container services my-5">
+        <h3 class="text-center my-5">
+            <b>Skills</b>
+        </h3>
+        <div class="d-flex justify-content-center">
+            <div class="services-animation">
+                <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_WdTEui.json"
+                    background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay>
+                </lottie-player>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>JavaScript</b></h5>
+                    <img src="./images/js_img.png" alt="Javascript language" />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>HTML5</b></h5>
+                    <img src="./images/html_img.png" alt="HTML language" />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>CSS</b></h5>
+                    <img src="./images/css_img.jpg" alt="css language" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>React</b></h5>
+                    <img src="./images/react_img.png" alt="React framework" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>Bootstrap</b></h5>
+                    <img src="./images/bootstrap_img.jpg" alt="Bootstrap library" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="service">
+                    <h5><b>Sass</b></h5>
+                    <img src="./images/sass_img.jpg" alt="Sass Preprocessor library" />
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- End of Services -->
+
+    <!-- Start of Projects -->
+    <div id="projects" class="container">
+        <h2 class="text-center"><b> Projects </b></h2>
+        <div class="d-flex justify-content-center">
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_ygiuluqn.json" background="transparent"
+                speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-3">
+                <div class="project">
+                  <img src="./images/car_img.jpg" alt="" />
+                  <div class="overlay">
+                    <h5> <b>Car Rental App</b></h5><hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="hire-me">View</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="project">
+                  <img src="./images/pizzas_img.png" alt="" />
+                  <div class="overlay">
+                    <h5> <b>Pizza Delivery App</b></h5><hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="hire-me">View</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="project">
+                  <img src="./images/air_ticket_img.jpg" alt="" />
+                  <div class="overlay">
+                    <h5> <b>Air Ticket Online Booking App</b></h5><hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="hire-me">View</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Projects -->
+
+    <!-- Start of Contact Us -->
+    <div id="contactus" class="contact-box my-5">
+     <h2 class="py-5 text-center"> <b>Contact / Hire me</b></h2>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+            <div class="d-flex flex-column contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email address">
+                <textarea rows="10" placeholder="Query"></textarea>
+
+                <div class="d-flex justify-content-end mt-3">
+                    <button class="about"> Submit </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- End of Contact Us -->
+
+   <!-- Footer -->
+   <div class="d-flex footer">
+    <p>Designed and Developed By</p> 
+    <div class="divider"></div>
+    <p>V. Madhaveeswara Brahmaji</p>
+
+   </div>
+
+</body>
+
+</html>
